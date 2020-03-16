@@ -5,10 +5,10 @@ from package.model import conn
 
 
 class Common(Resource):
-    """This contain common api ie noe related to the specific module"""
+    """Api comun para resolver datos"""
 
     def get(self):
-        """Retrive the patient,doctor and appointment count for the dashboard page"""
+        """Obtiene numero de pacientes activos, numero de terapistas y turnos del mes para el dashboard principal """
 
         getPatientCount=conn.execute("SELECT COUNT(*) AS patient FROM patient").fetchone()
         getDoctorCount = conn.execute("SELECT COUNT(*) AS doctor FROM doctor").fetchone()

@@ -3,7 +3,7 @@
 from flask_restful import Resource, Api, request
 from package.model import conn
 class Doctors(Resource):
-    """Apis del objeto doctor"""
+    """Apis del objeto Doctor/Terapista"""
 
     def get(self):
         """Obtiene una lista de todos los terapistas"""
@@ -27,24 +27,24 @@ class Doctors(Resource):
         return doctorInput
 
 class Doctor(Resource):
-    """It include all the apis carrying out the activity with the single doctor"""
+    """Incluye todas las apis que llevan la actividad de un solo terapista"""
 
 
     def get(self,id):
-        """get the details of the docktor by the doctor id"""
+        """Obtiene los datos de un terapista por su ID"""
 
         doctor = conn.execute("SELECT * FROM doctor WHERE doc_id=?",(id,)).fetchall()
         return doctor
 
     def delete(self, id):
-        """Delete the doctor by its id"""
+        """Borra un terapista por ID"""
 
         conn.execute("DELETE FROM doctor WHERE doc_id=?", (id,))
         conn.commit()
         return {'msg': 'sucessfully deleted'}
 
     def put(self,id):
-        """Update the doctor by its id"""
+        """Actualiza un terapista por su ID"""
 
         doctorInput = request.get_json(force=True)
         doc_first_name=doctorInput['doc_first_name']

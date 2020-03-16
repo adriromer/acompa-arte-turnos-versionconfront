@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9374f26-cbbf-47fc-9e49-697448af0259" name="Default" comment="Comments added to code">
-      <change afterPath="$PROJECT_DIR$/static/app/img/logo-acompa.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/appointment.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/appointment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/common.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/doctor.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/doctor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/appointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/doctor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/patient.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/patient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/patient.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Instant-Flask-Web-Development" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -188,7 +187,7 @@
       <workItem from="1584303110058" duration="11972000" />
       <workItem from="1584316452182" duration="748000" />
       <workItem from="1584338011486" duration="4846000" />
-      <workItem from="1584365616548" duration="6923000" />
+      <workItem from="1584365616548" duration="10862000" />
     </task>
     <task id="LOCAL-00001" summary="Today Final Commit">
       <created>1468601830048</created>
@@ -395,26 +394,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="271" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584305588993" />
-    <state x="418" y="126" key="FileChooserDialogImpl" timestamp="1584304089592">
+    <state x="418" y="126" key="FileChooserDialogImpl" timestamp="1584388811013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="418" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584304089592" />
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1584374541648">
+    <state x="418" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584388811013" />
+    <state width="759" height="123" key="GridCell.Tab.0.bottom" timestamp="1584384039512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584374541648" />
-    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1584374541648">
+    <state width="759" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584384039512" />
+    <state width="759" height="123" key="GridCell.Tab.0.center" timestamp="1584384039512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584374541648" />
-    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1584374541648">
+    <state width="759" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584384039512" />
+    <state width="759" height="123" key="GridCell.Tab.0.left" timestamp="1584384039511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584374541648" />
-    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1584374541648">
+    <state width="759" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584384039511" />
+    <state width="759" height="123" key="GridCell.Tab.0.right" timestamp="1584384039512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584374541648" />
+    <state width="759" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584384039512" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1584316552537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -443,7 +442,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/acompa_arte_turnos_versionconfront$app.coverage" NAME="app Coverage Results" MODIFIED="1584372735788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/acompa_arte_turnos_versionconfront$app.coverage" NAME="app Coverage Results" MODIFIED="1584384039482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/acompa_arte_turnos_versionClinica$app.coverage" NAME="app Coverage Results" MODIFIED="1584314610919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">

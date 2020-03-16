@@ -12,7 +12,7 @@ class Patients(Resource):
     """ Clase que contiene de los pacientes """
 
     def get(self):
-        """Api to retive all the patient from the database"""
+        """Api que obtiene todos los pacientes de la base"""
 
         patients = conn.execute("SELECT * FROM patient  ORDER BY pat_date DESC").fetchall()
         return patients
@@ -20,7 +20,7 @@ class Patients(Resource):
 
 
     def post(self):
-        """api to add the patient in the database"""
+        """Api para agregar un paciente a la base"""
 
         patientInput = request.get_json(force=True)
         pat_first_name=patientInput['pat_first_name']
@@ -34,23 +34,23 @@ class Patients(Resource):
         return patientInput
 
 class Patient(Resource):
-    """It contains all apis doing activity with the single patient entity"""
+    """Contiene todas las apis que ejecutan actividades con un solo paciente"""
 
     def get(self,id):
-        """api to retrive details of the patient by it id"""
+        """api que obtiene todos los detalles de un paciente por ID"""
 
         patient = conn.execute("SELECT * FROM patient WHERE pat_id=?",(id,)).fetchall()
         return patient
 
     def delete(self,id):
-        """api to delete the patiend by its id"""
+        """Api que borra un paciente por su ID"""
 
         conn.execute("DELETE FROM patient WHERE pat_id=?",(id,))
         conn.commit()
         return {'msg': 'sucessfully deleted'}
 
     def put(self,id):
-        """api to update the patient by it id"""
+        """Api que actualiza un paciente por su id"""
 
         patientInput = request.get_json(force=True)
         pat_first_name = patientInput['pat_first_name']

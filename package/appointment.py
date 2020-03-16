@@ -6,16 +6,16 @@ from package.model import conn
 
 
 class Appointments(Resource):
-    """This contain apis to carry out activity with all appiontments"""
+    """Apis de actividades de turnos"""
 
     def get(self):
-        """Retrive all the appointment and return in form of json"""
+        """trae todos los turnos en forma de Json"""
 
         appointment = conn.execute("SELECT p.*,d.*,a.* from appointment a LEFT JOIN patient p ON a.pat_id = p.pat_id LEFT JOIN doctor d ON a.doc_id = d.doc_id ORDER BY appointment_date DESC").fetchall()
         return appointment
 
     def post(self):
-        """Create the appoitment by assiciating patient and docter with appointment date"""
+        """crea un turno asociando paciente y terapista con fecha de turno"""
 
         appointment = request.get_json(force=True)
         pat_id = appointment['pat_id']
@@ -29,24 +29,24 @@ class Appointments(Resource):
 
 
 class Appointment(Resource):
-    """This contain all api doing activity with single appointment"""
+    """Api que contiene toda la actividad con un turno unico"""
 
     def get(self,id):
-        """retrive a singe appointment details by its id"""
+        """Obtiene un detalles de un turno por su ID"""
 
         appointment = conn.execute("SELECT * FROM appointment WHERE app_id=?",(id,)).fetchall()
         return appointment
 
 
     def delete(self,id):
-        """Delete teh appointment by its id"""
+        """Borra turno por ID"""
 
         conn.execute("DELETE FROM appointment WHERE app_id=?",(id,))
         conn.commit()
         return {'msg': 'sucessfully deleted'}
 
     def put(self,id):
-        """Update the appointment details by the appointment id"""
+        """Actualiza un turno por ID"""
 
         appointment = request.get_json(force=True)
         pat_id = appointment['pat_id']

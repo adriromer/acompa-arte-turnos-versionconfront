@@ -12,7 +12,9 @@ python app.py
 
 ## Configuracion
 
-```json para conectar la DB (puede usarse la local dentro con el dump del proyecto o conectar una base externa)
+json para conectar la DB (puede usarse la local dentro con el dump del proyecto o conectar una base externa)
+
+```
 {
   "database": "database.db",
   "port": 5000,

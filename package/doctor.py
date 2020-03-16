@@ -3,10 +3,10 @@
 from flask_restful import Resource, Api, request
 from package.model import conn
 class Doctors(Resource):
-    """This contain apis to carry out activity with all doctors"""
+    """Apis del objeto doctor"""
 
     def get(self):
-        """Retrive list of all the doctor"""
+        """Obtiene una lista de todos los terapistas"""
 
         doctors = conn.execute("SELECT * FROM doctor ORDER BY doc_date DESC").fetchall()
         return doctors
@@ -14,7 +14,7 @@ class Doctors(Resource):
 
 
     def post(self):
-        """Add the new doctor"""
+        """Agregar un nuevo Doctor"""
 
         doctorInput = request.get_json(force=True)
         doc_first_name=doctorInput['doc_first_name']

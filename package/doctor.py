@@ -2,6 +2,7 @@
 
 from flask_restful import Resource, Api, request
 from package.model import conn
+
 class Doctors(Resource):
     """Apis del objeto Doctor/Terapista"""
 

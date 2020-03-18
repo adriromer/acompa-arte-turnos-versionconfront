@@ -21,7 +21,7 @@ $(document).ready(function () {
 
         $.ajax(settings).done(function (response) {
             $('.modal.in').modal('hide')
-               $.notify("Doctor Added Successfully", {"status":"success"});
+               $.notify("Doctor agregado exitosamente", {"status":"success"});
             table.destroy();
             $('#datatable4 tbody').empty(); // empty in case the columns change
             getDoctor()
@@ -42,16 +42,16 @@ $(document).ready(function () {
         }
 
         swal({
-            title: "Are you sure?",
-            text: "You will not be able to recover this data",
-            type: "warning",
+            title: "Estas seguro?",
+            text: "Esta informacion no podra ser recuperada",
+            type: "Alerta!",
             showCancelButton: true,
             confirmButtonColor: "#DD6B55",
-            confirmButtonText: "Yes, delete it!",
+            confirmButtonText: "Si, borrarla!",
             closeOnConfirm: false
         }, function () {
             $.ajax(settings).done(function (response) {
-                swal("Deleted!", "Doctor has been deleted.", "success");
+                swal("Deleted!", "Terapistas borrado", "Exitosamente");
                 table.destroy();
                 $('#datatable4 tbody').empty(); // empty in case the columns change
                 getDoctor()
@@ -77,7 +77,7 @@ $(document).ready(function () {
         }
 
         $.ajax(settings).done(function (response) {
-            $.notify("Doctor Updated Successfully", {"status":"success"});
+            $.notify("Terapista actualizado de manera exitosa", {"status":"success"});
             $('.modal.in').modal('hide')
             table.destroy();
             $('#datatable4 tbody').empty(); // empty in case the columns change
@@ -125,12 +125,12 @@ $(document).ready(function () {
                     },
                     {
                         mRender: function (o) {
-                            return '<button class="btn-xs btn btn-info btn-edit" type="button">Edit</button>';
+                            return '<button class="btn-xs btn btn-info btn-edit" type="button">Editar</button>';
                         }
                     },
                     {
                         mRender: function (o) {
-                            return '<button class="btn-xs btn btn-danger delete-btn" type="button">Delete</button>';
+                            return '<button class="btn-xs btn btn-danger delete-btn" type="button">Borrar</button>';
                         }
                     }
         ]

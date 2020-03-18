@@ -20,7 +20,7 @@ $(document).ready(function () {
         }
 
         $.ajax(settings).done(function (response) {
-         $.notify("Appointment Added Successfully", {"status":"success"});
+         $.notify("Turno agregado exitosamente", {"status":"success"});
 
             $('.modal.in').modal('hide')
             table.destroy();
@@ -43,16 +43,16 @@ $(document).ready(function () {
         }
 
 swal({
-    title: "Are you sure?",
-    text: "You will not be able to recover this data",
-    type: "warning",
+    title: "Estas Seguro?",
+    text: "Esta informacion no podra ser recuperada",
+    type: "Alert!",
     showCancelButton: true,
     confirmButtonColor: "#DD6B55",
-    confirmButtonText: "Yes, delete it!",
+    confirmButtonText: "Si, Borrarla!",
     closeOnConfirm: false
 }, function() {
  $.ajax(settings).done(function (response) {
-   swal("Deleted!", "Appointment has been deleted.", "success");
+   swal("Deleted!", "Turno borrado de forma exitosa.", "accion exitosa");
             table.destroy();
             $('#datatable4 tbody').empty(); // empty in case the columns change
             getAppointment()

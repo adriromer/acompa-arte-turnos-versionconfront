@@ -1,6 +1,10 @@
 # Sistema de Turnos para Centro de terapias Acompa-Arte
 
-Systema desarrollado en Python - FrameWork Flask y DB SQLite
+Systema desarrollado en Python:
+ - FrameWork Flask
+ - DB SQLite
+ - librerias de sqlalchemy para mappeo de objetos relacionales
+ - Front End con HTTML/CSS, JS, Angle - Bootstrap Admin App + jQuery
 
 ## Ejecucion
 

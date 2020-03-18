@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9374f26-cbbf-47fc-9e49-697448af0259" name="Default" comment="Comments added to code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +216,7 @@
       <workItem from="1584338011486" duration="4846000" />
       <workItem from="1584365616548" duration="10862000" />
       <workItem from="1584515582739" duration="1804000" />
-      <workItem from="1584517448293" duration="1153000" />
+      <workItem from="1584517448293" duration="1751000" />
     </task>
     <task id="LOCAL-00001" summary="Today Final Commit">
       <created>1468601830048</created>

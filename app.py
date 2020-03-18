@@ -19,8 +19,7 @@ with open('config.json') as data_file:
 
 engine = create_engine('sqlite:///database.db', echo=True)
 
-#app = Flask(__name__, static_url_path='', template_folder='static')
-app = Flask(__name__, template_folder='static')
+app = Flask(__name__, static_url_path='', template_folder='static')
 
 
 
@@ -97,4 +96,4 @@ def logout():
 if __name__ == '__main__':
     app.secret_key = os.urandom(12)
     print(config['host'],config['port'])
-    app.run(debug=True,host=config['host'],port=config['port'])
+    app.run(debug=True,host='0.0.0.0',port=8080)

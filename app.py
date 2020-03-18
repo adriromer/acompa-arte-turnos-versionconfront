@@ -18,8 +18,8 @@ with open('config.json') as data_file:
 
 engine = create_engine('sqlite:///database.db', echo=True)
 
-#app = Flask(__name__, static_url_path='', template_folder='static')
-app = Flask(__name__, template_folder='static')
+app = Flask(__name__, static_url_path='', template_folder='static')
+#app = Flask(__name__, template_folder='static')
 
 
 

@@ -1,5 +1,5 @@
 {
   "database": "database.db",
-  "port": 8080,
+  "port": 1212,
   "host": "0.0.0.0"
 }

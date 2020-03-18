@@ -8,7 +8,6 @@ from flask import Flask, send_from_directory, render_template, request, redirect
 from flask_restful import Resource, Api, request
 from package.patient import Patients, Patient
 from package.doctor import Doctors, Doctor
-from package.login import login
 from package.appointment import Appointments, Appointment
 from package.common import Common
 import json
@@ -20,6 +19,7 @@ with open('config.json') as data_file:
 engine = create_engine('sqlite:///database.db', echo=True)
 
 app = Flask(__name__, static_url_path='', template_folder='static')
+#app = Flask(__name__, template_folder='static')
 
 
 
@@ -60,6 +60,7 @@ def turnos():
 @app.route('/pacientes.html')
 def pat():
     if not session.get('logged_in'):
+        print("usuario no esta loggeado")
         return render_template('login.html')
     else:
         return app.send_static_file('pacientes.html')
@@ -96,4 +97,4 @@ def logout():
 if __name__ == '__main__':
     app.secret_key = os.urandom(12)
     print(config['host'],config['port'])
-    app.run(debug=True,host='0.0.0.0',port=8080)
+    app.run(debug=True,host=config['host'],port=config['port'])

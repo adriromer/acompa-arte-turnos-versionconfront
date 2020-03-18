@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9374f26-cbbf-47fc-9e49-697448af0259" name="Default" comment="Comments added to code">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/HospitalManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HospitalManagementSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
@@ -10,6 +17,10 @@
       <change beforePath="$PROJECT_DIR$/static/doctor.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/patient.html" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+>>>>>>> a6724c55d7afe999cfc0485b89772511d1371a01
+>>>>>>> 5b141efbdcef3537d3462d12e2432191ef41141f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +44,13 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+<<<<<<< HEAD
+        <item name="database" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database [2]" type="feb32156:DbDataSourceImpl" />
+=======
         <item name="database.db" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -59,6 +77,7 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
         <item name="users: table" type="3d80ac25:SqliteImplModel$Table" />
+>>>>>>> a6724c55d7afe999cfc0485b89772511d1371a01
       </path>
     </expand>
     <select />
@@ -96,7 +115,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+=======
+<<<<<<< HEAD
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+=======
+>>>>>>> a6724c55d7afe999cfc0485b89772511d1371a01
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> 5b141efbdcef3537d3462d12e2432191ef41141f
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -220,9 +247,22 @@
       <workItem from="1584303110058" duration="11972000" />
       <workItem from="1584316452182" duration="748000" />
       <workItem from="1584338011486" duration="4846000" />
+<<<<<<< HEAD
+      <workItem from="1584365616548" duration="30482000" />
+      <workItem from="1584501141879" duration="1627000" />
+      <workItem from="1584503110326" duration="47000" />
+      <workItem from="1584503219122" duration="426000" />
+      <workItem from="1584510871072" duration="658000" />
+      <workItem from="1584516280249" duration="746000" />
+=======
       <workItem from="1584365616548" duration="10862000" />
       <workItem from="1584515582739" duration="1804000" />
+<<<<<<< HEAD
       <workItem from="1584517448293" duration="5246000" />
+=======
+      <workItem from="1584517448293" duration="1751000" />
+>>>>>>> a6724c55d7afe999cfc0485b89772511d1371a01
+>>>>>>> 5b141efbdcef3537d3462d12e2432191ef41141f
     </task>
     <task id="LOCAL-00001" summary="Today Final Commit">
       <created>1468601830048</created>
@@ -424,7 +464,15 @@
     <state x="230" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584515991994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+<<<<<<< HEAD
+    <state x="230" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584304322444" />
+    <state x="414" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584511082376">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="414" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1584511082376" />
+=======
     <state x="230" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584515991994" />
+>>>>>>> a6724c55d7afe999cfc0485b89772511d1371a01
     <state x="271" y="0" key="CommitChangelistDialog2" timestamp="1584305588993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -436,8 +484,36 @@
     <state width="1056" height="275" key="GridCell.Tab.0.bottom" timestamp="1584564170459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+<<<<<<< HEAD
     <state width="1056" height="275" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584564170459" />
     <state width="1056" height="275" key="GridCell.Tab.0.center" timestamp="1584564170458">
+=======
+<<<<<<< HEAD
+    <state x="418" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584501310668" />
+    <state width="1065" height="346" key="GridCell.Tab.0.bottom" timestamp="1584511530643">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1065" height="346" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584511530643" />
+    <state width="1065" height="346" key="GridCell.Tab.0.center" timestamp="1584511530642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1065" height="346" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584511530642" />
+    <state width="1065" height="346" key="GridCell.Tab.0.left" timestamp="1584511530642">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1065" height="346" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584511530642" />
+    <state width="1065" height="346" key="GridCell.Tab.0.right" timestamp="1584511530643">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1065" height="346" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584511530643" />
+    <state x="89" y="18" key="SettingsEditor" timestamp="1584510910068">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="89" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584510910068" />
+=======
+    <state width="1056" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584559051407" />
+    <state width="1056" height="209" key="GridCell.Tab.0.center" timestamp="1584559051406">
+>>>>>>> 5b141efbdcef3537d3462d12e2432191ef41141f
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1056" height="275" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584564170458" />
@@ -456,7 +532,12 @@
     <state x="186" y="9" key="SettingsEditor" timestamp="1584563405494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+<<<<<<< HEAD
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584563405494" />
+=======
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584515604651" />
+>>>>>>> a6724c55d7afe999cfc0485b89772511d1371a01
+>>>>>>> 5b141efbdcef3537d3462d12e2432191ef41141f
     <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1584310316749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -485,7 +566,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/acompa_arte_turnos_versionconfront$app.coverage" NAME="app Coverage Results" MODIFIED="1584561550778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/acompa_arte_turnos_versionconfront$login.coverage" NAME="login Coverage Results" MODIFIED="1584410362924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
+    <SUITE FILE_PATH="coverage/acompa_arte_turnos_versionconfront$app.coverage" NAME="app Coverage Results" MODIFIED="1584510920063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+    <SUITE FILE_PATH="coverage/acompa_arte_turnos_versionconfront$app.coverage" NAME="app Coverage Results" MODIFIED="1584559051383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> a6724c55d7afe999cfc0485b89772511d1371a01
+>>>>>>> 5b141efbdcef3537d3462d12e2432191ef41141f
     <SUITE FILE_PATH="coverage/acompa_arte_turnos_versionClinica$app.coverage" NAME="app Coverage Results" MODIFIED="1584314610919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/acompa_arte_turnos_versionconfront_commit_6$app.coverage" NAME="app Coverage Results" MODIFIED="1584516421292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
